@@ -11,6 +11,6 @@ ll 查看当前目录下的文件
 
 git branch <分支名> 创建新的分支
 git branch -v查看所有分支
-git checkout <分支名> 穿梭到指定分支t
+git switch/checkout <分支名> 穿梭到指定分支(switch和checkout都行)
 git merge <分支名> 合并某分支(此时不能在要合并的分支中)
 
