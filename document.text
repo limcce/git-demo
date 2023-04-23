@@ -15,4 +15,7 @@ git switch/checkout <分支名> 穿梭到指定分支(switch和checkout都行)
 git merge <分支名> 合并某分支(此时不能在要合并的分支中)
 git remote -v查看别名
 git remote 简易版查看别名
-git remote add <别名> http地址
+git remote add <别名> <http地址> 给要提交的仓库取别名
+git push <别名> <分支名> 将文件提交到仓库
+git pull <别名> <分支名> 拉取仓库文件
+git clone <http地址> 将仓库克隆到本地（这个过程系统自动给仓库取别名为origin）
