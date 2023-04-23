@@ -9,3 +9,7 @@ cat <file>查看文件内容
 git reset --hard <版本号> 穿梭版本
 ll 查看当前目录下的文件
 
+git branch <分支名> 创建新的分支
+git branch -v查看所有分支
+git checkout <分支名> 穿梭到指定分支
+
