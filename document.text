@@ -5,3 +5,5 @@ git commit -m "日志信息" <file>将文件提交到本地仓库
 git rm --cached <file>将文件从暂存区删除
 git log 查看详细的版本信息
 git reflog 查看简化的版本信息
+git cat <file>查看文件内容
+git reset --hard <版本号> 穿梭版本
