@@ -7,3 +7,4 @@ git log 查看详细的版本信息
 git reflog 查看简化的版本信息
 git cat <file>查看文件内容
 git reset --hard <版本号> 穿梭版本
+ll 查看当前目录下的文件
